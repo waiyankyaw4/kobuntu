@@ -1,0 +1,44 @@
+/* Styles for the container */
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: top; /* Center the content horizontally */
+}
+
+/* Styles for the registration form */
+.registration-form {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.registration-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.registration-form input[type="text"],
+.registration-form input[type="email"],
+.registration-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.registration-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.registration-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
